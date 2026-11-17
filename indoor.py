@@ -1,9 +1,9 @@
 # Save what the user writes.
-var_txt = input("Type something: ")
+text = input("Type something: ")
 
-# Decorate the text
-var_txt = var_txt.strip()
+# Remove extra spaces
+text = text.strip()
 
 # Convert to lowercase
-var_txt = var_txt.lower()
-print(var_txt)
+text = text.lower()
+print(text)

@@ -1,13 +1,13 @@
 #This is how to define a function
 def main(): 
-    var_1 = input('Type something: ')
-    var_1 = convert(var_1)
-    print(var_1)
+    text = input('Type something: ')
+    text = convert(text)
+    print(text)
 
 
 
-def convert(var_1):
-    var_1 = var_1.replace(':)','🙂').replace(':(','🙁')
-    return var_1
+def convert(text_emoji):
+    text_emoji = text_emoji.replace(':)','🙂').replace(':(','🙁')
+    return text_emoji
 
 main()
